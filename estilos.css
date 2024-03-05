@@ -28,6 +28,10 @@ h2{
     font-family: 'Playfair Display', serif;
 }
 
+#img_main{
+    width: 20rem;
+}
+
 .icon {
     width: 1em;
     height: 1em;
@@ -140,6 +144,26 @@ footer .datos-contacto{
 }
 
 @media only screen and (max-width: 600px) {
+    .masthead{
+        padding-top: 6rem !important;
+    }
+    .titulo{
+        max-width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 1rem;
+        align-items: center;
+    }
+    #img_main{
+        width: 8rem;
+    }
+    .divider{
+           display: none;
+    }
+    #anchor-form{
+        font-size: 1.5rem;
+    }
+        
     #contactForm{
         width:100%;
     }
